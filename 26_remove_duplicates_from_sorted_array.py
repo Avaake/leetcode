@@ -7,6 +7,3 @@ class Solution:
                 unique_index += 1
                 nums[unique_index] = nums[i]
         return unique_index + 1
-
-s = Solution()
-print(s.removeDuplicates([1,1,2]))
